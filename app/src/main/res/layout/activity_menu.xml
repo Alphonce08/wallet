@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MenuActivity">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Total Expenses"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="130dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Total Income"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="220dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Log out"
+        android:textColor="@color/red"
+        android:textSize="25dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="300dp"
+        >
+    </TextView>
+</RelativeLayout>
