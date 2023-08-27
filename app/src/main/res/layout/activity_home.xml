@@ -7,7 +7,50 @@
     android:background="@drawable/img"
     tools:context=".HomeActivity">
 
-
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="145dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textStyle="bold"
+        android:text="Get started to list your daily activity with your Wallet App"
+        />
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="170dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="140dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Getting your Wallet App is best to draw the best you can manage your monthly salary"
+        />
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:text="Wallet App is easiest to view the foregone activity as long as you had already listed on the right category"
+        />
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="170dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="470dp"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Make sure you placed your list in the right truck to avoid chaos on reviewing"
+        />
     <GridLayout
         android:layout_width="60dp"
         android:layout_height="100dp"
