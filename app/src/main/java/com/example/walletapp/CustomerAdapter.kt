@@ -54,7 +54,7 @@ class CustomAdapter(var context: Context, var data:ArrayList<Expenses>):BaseAdap
         var formattedDate = item.date.format(format)
 
         viewHolder.txtamount.text = item.amount  //coming from your model
-        viewHolder.txtdate.date = item.date
+        //viewHolder.txtdate.date = item.date
         viewHolder.txtdescription.text = item.description
         viewHolder.btn_delete.setOnClickListener {
 
