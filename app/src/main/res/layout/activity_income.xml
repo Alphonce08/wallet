@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/black"
+    android:background="drawable/white"
     android:layout_height="match_parent"
     tools:context=".IncomeActivity">
 
@@ -14,7 +14,7 @@
         android:layout_height="110dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:calendarTextColor="@color/white"
+        android:calendarTextColor="@color/black"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="42dp"
         android:layout_marginTop="85dp"
@@ -34,8 +34,8 @@
         android:textSize="25sp"
         android:textStyle="bold"
         android:inputType="number"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white" />
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
     <EditText
         android:id="@+id/editDescription"
         android:layout_width="300dp"
@@ -48,8 +48,8 @@
         android:ems="10"
         android:hint="Received From?"
         android:inputType="text"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="25sp"
         android:textStyle="bold" />
 

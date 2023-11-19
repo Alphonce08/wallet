@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@drawable/img"
     tools:context=".RegisterActivity">
     <TextView
         android:layout_width="500dp"
@@ -14,7 +14,7 @@
         android:layout_marginTop="10pt"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:text="Why to have a Wallet app?"
         />
     <TextView
@@ -26,7 +26,7 @@
         android:layout_marginTop="70dp"
         android:layout_marginStart="10dp"
         android:textStyle="bold"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:text="* track purchases and expenditures, which help in avoiding errors" />
 
@@ -40,7 +40,7 @@
         android:layout_marginStart="10dp"
         android:textStyle="bold"
         android:textSize="20sp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:text="* Help when budgeting or saving for future purchases." />
 
     <TextView
@@ -53,7 +53,7 @@
         android:layout_marginTop="190dp"
         android:textStyle="bold"
         android:textSize="20sp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:text="* compare their spending habits whether they are overspending in one area while under-budgeting in another. " />
 
     <EditText
@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Email"
-        android:textColorHint="@color/white"
+        android:textColorHint="@color/black"
         android:textSize="25dp"
         android:inputType="textEmailAddress"
         android:layout_marginTop="300dp"
@@ -92,8 +92,8 @@
         android:inputType="textPassword"
         app:passwordToggleEnabled="true"
         app:passwordToggleTint="#0A0A0B"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="25dp"
         tools:layout_editor_absoluteX="64dp"
         tools:layout_editor_absoluteY="252dp"
@@ -111,8 +111,8 @@
         android:ems="10"
         android:hint="Confirm Password"
         android:inputType="textPassword"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="25dp"
         tools:layout_editor_absoluteX="64dp"
         tools:layout_editor_absoluteY="252dp" />
