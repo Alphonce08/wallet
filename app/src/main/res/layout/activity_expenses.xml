@@ -11,12 +11,12 @@
 
         android:id="@+id/datePickerid"
         android:layout_width="315dp"
-        android:layout_height="110dp"
+        android:layout_height="150dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="42dp"
-        android:layout_marginTop="85dp"
+        android:layout_marginTop="78dp"
         android:outlineAmbientShadowColor="@color/black"
         android:calendarViewShown="false"
         android:datePickerMode="spinner" />
